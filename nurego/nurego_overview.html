@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+  <head>
+
+ <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="What Is Nurego?.">
+<meta name="keywords" content="formattinggetting_started,  overview, going live, high-level">
+<title>Nurego Overview  | Jekyll theme for designers</title>
+<link rel="stylesheet" type="text/css" href="../css/syntax.css">
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">-->
+<link rel="stylesheet" type="text/css" href="../css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="../css/lavish-bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../css/customstyles.css">
+<link rel="stylesheet" type="text/css" href="../css/theme-green.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="../js/jquery.navgoco.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="../js/toc.js"></script>
+<script src="../js/customscripts.js"></script>
+<link rel="shortcut icon" href="../common_images/favicon.ico" type="image/x-icon">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+
+
+
+ 
+
+<script>
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
+
+
+  </head>
+
+<body>
+
+   <!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="fa fa-home fa-lg navbar-brand" href="home.html">&nbsp;<span class="projectTitle"> Nurego Developer Documentation</span></a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- entries without drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+                
+                
+                <li><a href="https://github.com/tomjohnson1492/documentation-theme-jekyll" target="_blank">Github Repo</a></li>
+                
+                
+                
+                
+
+
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+
+                <li class="dropdown">
+                    
+                    
+                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jekyll Resources<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        
+                        <li><a href="https://talk.jekyllrb.com" target="_blank">Jekyll Talk</a></li>
+                        
+                        
+                        
+                        
+                        
+                        <li><a href="http://jekyllrb.com/docs/home/" target="_blank">Jekyll documentation</a></li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+                    </ul>
+                </li>
+                
+                
+
+
+                <!-- special insertion -->
+
+               
+                <!-- Send feedback function -->
+<script>
+function SendLinkByMail(href) {
+var subject= "Jekyll theme for designers feedback";
+var body = "I have some feedback about the Nurego Overview page: ";
+body += window.location.href;
+body += "";
+var uri = "mailto:tomjohnson1492@gmail.com?subject=";
+uri += encodeURIComponent(subject);
+uri += "&body=";
+uri += encodeURIComponent(body);
+window.location.href = uri;
+}
+</script>
+
+<li><a href="javascript:(function()%7BSendLinkByMail()%3B%7D)()%3B" target="_blank"><i class="fa fa-envelope-o"></i> Feedback</a></li>
+
+                <!--uncomment this block if you want simple search instead of algolia-->
+                <li>
+                     <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="../js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        SimpleJekyllSearch.init({
+                            searchInput: document.getElementById('search-input'),
+                            resultsContainer: document.getElementById('results-container'),
+                            dataSource: '../search.json',
+                            searchResultTemplate: '<li><a href="{url}" title="Nurego Overview">{title}</a></li>',
+                        noResultsText: 'No results found.',
+                                limit: 10,
+                                fuzzy: true,
+                        })
+                    </script>
+                     <!--end search-->
+                </li>
+
+            
+        </div>
+        <!-- /.container -->
+</nav>
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="col-lg-12">&nbsp;</div>
+
+
+<!-- Content Row -->
+<div class="row">
+    <!-- Sidebar Column -->
+    <div class="col-md-3">
+
+        <script>
+
+            $(document).ready(function() {
+                // Initialize navgoco with default options
+                $("#mysidebar").navgoco({
+                    caretHtml: '',
+                    accordion: true,
+                    openClass: 'active', // open
+                    save: false, // leave false or nav highlighting doesn't work right
+                    cookie: {
+                        name: 'navgoco',
+                        expires: false,
+                        path: '/'
+                    },
+                    slide: {
+                        duration: 400,
+                        easing: 'swing'
+                    }
+                });
+
+                $("#collapseAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', false);
+                });
+
+                $("#expandAll").click(function(e) {
+                    e.preventDefault();
+                    $("#mysidebar").navgoco('toggle', true);
+                });
+
+            });
+
+        </script>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <ul id="mysidebar" class="nav">
+
+            <span class="siteTagline">Designers</span>
+            <span class="versionTagline">Version 4.0</span>
+
+            
+            
+            
+            <li><a href="#"></a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="../titlepage.html"></a></li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li><a href="../tocpage.html"></a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Overview</a>
+                <ul>
+                    
+                    
+                    
+                    <li class="active"><a href="../nurego/nurego_overview.html">Overview</a></li>
+                    
+
+                    
+
+                    
+                    
+                </ul>
+                
+                
+            
+            <li><a href="#">Development</a>
+                <ul>
+                    
+                    
+                    
+                    <li><a href="../nurego/nurego_integrations.html">Development overview</a></li>
+                    
+
+                    
+                    
+                    <li class="thirdlevel"><a href="#">Integrations</a>
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="../nurego/nurego_java.html">Java</a></li>
+                            
+
+                            
+                            
+                            
+                            
+                            <li><a href="../nurego/nurego_java.html">Ruby</a></li>
+                            
+
+                            
+                            
+                        </ul>
+                    </li>
+                    
+                    
+
+                    
+                    
+                </ul>
+                
+                
+                
+
+
+                <!-- if you aren't using the accordion, uncomment this block:
+
+                     <p class="external">
+                         <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+                     </p>
+                 -->
+
+    </div>
+    <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+    <script>$("li.active").parents('li').toggleClass("active");</script>
+
+
+            <!-- Content Column -->
+            <div class="col-md-9">
+                
+                <div class="post-header">
+   <h1 class="post-title-main">Nurego Overview</h1>
+</div>
+
+<div class="post-content">
+
+   
+    <div class="summary">What Is Nurego?.</div>
+   
+
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+
+<div id="toc"></div>
+
+
+    
+
+    <a target="_blank" href="https://github.com/tomjohnson1492/documentation-theme-jekyll/edit/reviews/nurego/nurego_overview.html" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    
+  <h2 id="introduction-to-nurego">Introduction to Nurego</h2>
+
+<p>Nurego provides you with total control of your subscription business, presenting a complete picture of business operations in a single place. By displaying key SaaS metrics such as ARPU, Churn, and Revenue, in a simple and user-friendly manner, Nurego offers a powerful change management tool for your subscriber base.</p>
+
+<h3 id="subscriber-segmentation">Subscriber segmentation:</h3>
+
+<p>Nurego gives you the power to fine tune your company&#39;s subscription plans by segmenting subscribers. Managing segments gives you the ability to optimize your company&#39;s business by adjusting price plans and trying out new products on a per-segment basis. This enables trial-runs and incremental rollouts of business changes, to optimize results and avoid negative impacts to the existing subscriber base.</p>
+
+<h3 id="live-and-test-mode">Live and Test Mode</h3>
+
+<p>Each Nurego account includes both a live and test instance. Your test instance enables you to conduct a complete test cycle for an entire backend system (customer website, billing, communications and deployment) without negatively impacting your existing customer base.</p>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="s2">&quot;JavaScript syntax highlighting&quot;</span><span class="p">;</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+</code></pre></div><div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">s</span> <span class="o">=</span> <span class="s">&quot;Python syntax highlighting&quot;</span>
+<span class="k">print</span> <span class="n">s</span>
+</code></pre></div><div class="highlight"><pre><code class="language-text" data-lang="text">No language indicated, so no syntax highlighting.
+But let&#39;s throw in a &lt;b&gt;tag&lt;/b&gt;.
+</code></pre></div>
+<p><img src="https://www.filepicker.io/api/file/hmBUEoKoTmaT9e7hcPnw" alt="alt text" title="Logo Title Text 1"></p>
+
+<p>You can insert an alert by using any of the following code.</p>
+
+<p>The following demonstrate the formatting associated with each alert.</p>
+
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip: </b> Tutorial Requirement: You must have Plans and customers, in order to use this tutorial. </div>
+
+<p><img title="nurego logo" src="images/nurego_logo.jpeg" /></p>
+
+<p><a href="../nurego/nurego_java.html">Link to Nurego Java</a></p>
+
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="java"><a href="#profile" data-toggle="tab">java</a></li>
+    <li><a href="#ruby" data-toggle="tab">ruby</a></li>
+    <li><a href="#php" data-toggle="tab">php</a></li>
+</ul>
+
+<p><div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="Java">
+    <h2>java</h2>
+    <code>javascript
+    var s = &quot;JavaScript syntax highlighting&quot;;
+    alert(s);
+</code>
+</div></p>
+
+<div role="tabpanel" class="tab-pane" id="Ruby">
+    <h2>ruby</h2>
+    ```javascript
+    var s = "JavaScript syntax highlighting";
+    alert(s);
+    ```
+
+<div role="tabpanel" class="tab-pane" id="php">
+    <h2>php</h2>
+    ```javascript
+    var s = "JavaScript syntax highlighting";
+    alert(s);
+    ```
+</div>
+
+
+<div class="tags">
+    
+    <b>Tags: </b>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <a href="tag_formatting.html" class="btn btn-default navbar-btn cursorNorm" role="button">formatting</a>
+    
+    
+    
+    <a href="tag_getting_started.html" class="btn btn-default navbar-btn cursorNorm" role="button">getting_started</a>
+    
+    
+    
+</div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'andrewjtech123'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2016 nurego. All rights reserved. <br />
+<p>Page last updated:</span> November 30, 2015<br/> Site last generated: Mar 15, 2016 <br />
+<p><img src="../../nurego/images/nurego_logo.jpeg"/></p>
+                </div>
+            </div>
+</footer>
+            </div><!-- /.row -->
+
+    </div>    <!-- /.container -->
+
+</body>
+
+
+</html>
+

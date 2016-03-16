@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    <url>
+      <loc>/404.html</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/algolia_search.json</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/nurego/home.html</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/nurego/nurego_integrations.html</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/nurego/nurego_java.html</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/nurego/nurego_overview.html</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/prince-file-list.txt</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/search.json</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/sitemap.xml</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/title-checker.html</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/titlepage.html</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/tocpage.html</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/urls_mydoc.txt</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/urls_nurego.txt</loc>
+      
+        <last_updated>2016-03-15T13:08:20-04:00</last_updated>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+</urlset>
